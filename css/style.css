@@ -142,8 +142,8 @@ form{
 
 
 .form input[type="submit"]:hover{
-    cursor:pointer
-    background-color: rgba(245, 186, 113, 0.878);
+    cursor:pointer;
+    background-color: rgba(133, 133, 206, 0.476);;
 }
 .form input[type="reset"]{
     background-color:rgba(133, 133, 206, 0.476);
