@@ -17,9 +17,10 @@ nav {
     font-size: 24px;
     margin: 10px;
     height: 120px;
-    
+
 }
-.nav ul{
+
+.nav ul {
     display: flex;
     list-style: none;
     gap: 20px;
@@ -30,7 +31,7 @@ nav {
     font-size: 22px;
     text-decoration: none;
 
-    
+
 }
 
 .nav li a:hover {
@@ -38,98 +39,117 @@ nav {
     color: rgb(206, 205, 202);
 }
 
-.baner h2 {
-    position: absolute;
-    bottom: 260px;
-    left: 400px;
-    text-align: center;
-    color: white;
+.section-1 {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 600px;
+    margin-left: 120px;
+    background-image: url(https://images.unsplash.com/photo-1482868601586-3a72731db0bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
 }
 
-.baner img {
-    width: 100%;
-    height: 450px;
-    
+.baner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
 .text-1 h3 {
     text-align: center;
     padding: 20px 40px;
 }
-.parrafo-1{
+
+.parrafo-1 {
     width: 450px;
     height: 180px;
-    text-align:center;
+    text-align: center;
     position: relative;
     left: 280px;
 }
-.card-1{
+
+.card-1 {
     display: inline-block;
     width: 250px;
-    height:450px;
+    height: 450px;
     margin: 20px 30px;
 
 }
-.card-1 h5{
-    text-align:center;
-}
-.card-1 p{
+
+.card-1 h5 {
     text-align: center;
 }
-.card-1 img{
+
+.card-1 p {
+    text-align: center;
+}
+
+.card-1 img {
     margin-left: 25px;
 }
-.footer{
+
+.footer {
     background-color: rgba(218, 213, 213, 0.699);
     width: 800px;
     margin: 80px;
 }
-.redes{
+
+.redes {
     text-align: center;
 }
-.redes h4{
-    margin:8px 16px ;
+
+.redes h4 {
+    margin: 8px 16px;
 }
-.redes ul li{
+
+.redes ul li {
     list-style-type: none;
 }
-.contacto{
+
+.contacto {
     margin-top: 20px;
     text-align: center;
 }
-.contacto ul li{
+
+.contacto ul li {
     list-style-type: none;
 }
-.contacto h4{
+
+.contacto h4 {
     margin: 8px 16px;
 }
- .contacto ul li a {
+
+.contacto ul li a {
     text-decoration: none;
     font-size: 14px;
     margin: 8px 16px;
-    
+
 }
+
 .redes ul li a {
     text-decoration: none;
     font-size: 14px;
 
 }
-form{
+
+form {
     width: 250px;
     height: 450px;
     padding: 15px;
     margin: auto;
     border: 2px solid black;
-    background-image:url(https://images.unsplash.com/photo-1682687982093-4773cb0dbc2e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80 );
+    background-image: url(https://images.unsplash.com/photo-1682687982093-4773cb0dbc2e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80 );
 
 }
 
-.form label{
+.form label {
     width: 70px;
     display: inline-block;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 .form input[type="text"],
-.form input[type="email"]{
+.form input[type="email"] {
     width: 220px;
     padding: 3px 10px;
     border: 1px solid rgb(28, 27, 27);
@@ -138,7 +158,8 @@ form{
     color: white;
     margin: 5px 0;
 }
-.textarea{
+
+.textarea {
     width: 220px;
     height: 150px;
     margin-top: 10px;
@@ -146,21 +167,24 @@ form{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
-.form input[type="submit"]{
+
+.form input[type="submit"] {
     background-color: rgba(115, 115, 206, 0.476);
 }
 
 
-.form input[type="submit"]:hover{
-    cursor:pointer;
-    background-color: rgba(133, 133, 206, 0.476);;
+.form input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: rgba(133, 133, 206, 0.476);
+    ;
 }
-.form input[type="reset"]{
-    background-color:rgba(133, 133, 206, 0.476);
-} 
+
+.form input[type="reset"] {
+    background-color: rgba(133, 133, 206, 0.476);
+}
 
 
-.form input[type="reset"]:hover{
-    cursor:pointer;
-    background-color:rgba(245, 123, 123, 0.873);
+.form input[type="reset"]:hover {
+    cursor: pointer;
+    background-color: rgba(245, 123, 123, 0.873);
 }
