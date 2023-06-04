@@ -101,13 +101,20 @@ nav {
 }
 
 .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: rgba(218, 213, 213, 0.699);
     width: 800px;
     margin: 80px;
 }
 
 .redes {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .redes h4 {
@@ -119,8 +126,13 @@ nav {
 }
 
 .contacto {
-    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    
+    
 }
 
 .contacto ul li {
